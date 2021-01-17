@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Navbar : React.FunctionComponent = () => {
+export const Navbar : React.FunctionComponent = () => {
    return (
     <nav>
         <div className="nav-wrapper indigo px1">
@@ -14,4 +14,3 @@ const Navbar : React.FunctionComponent = () => {
     )  
 }
 
-export default Navbar;
